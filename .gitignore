@@ -1,3 +1,36 @@
-# Ignore large dataset files
+# Ignore model weight files
 *.pt
+*.pth
+*.onnx
+*.tflite
 
+# Ignore YOLO weights directory
+weights/
+yolov7/weights/
+
+# Ignore large datasets
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary or cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# Ignore virtual environment
+venv/
+env/
+.ktsa_env/
+ktsa_env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
